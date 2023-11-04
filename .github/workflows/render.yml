@@ -31,7 +31,9 @@ jobs:
     - name: Render
       run: nix-shell --run "quarto render"
       
-    - uses: ncipollo/release-action@v1
+    
+    - name: Release
+      uses: ncipollo/release-action@v1
           with:
             artifacts: "_book/Book-Title.pdf"
             bodyFile: "release.md"
