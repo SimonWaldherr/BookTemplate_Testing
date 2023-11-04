@@ -16,4 +16,4 @@ GitHub Actions enables automation of all your software workflows, now with world
 
 ### GitHub Release
 
-GitHub Releases are a way to ship software to your users. It's a form-based feature that makes it easy to bundle source code, release notes, and links to binary files for others to use.
+GitHub Releases are a way to ship software to your users. It's a GitHub feature that makes it easy to bundle source code, release notes, and links to binary files for others to use.

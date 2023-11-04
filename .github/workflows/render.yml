@@ -35,6 +35,6 @@ jobs:
     - name: Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "_book/Book-Title.pdf"
+        artifacts: "_book/*.pdf,_book/*.epub,_book/*.docx,*.tex"
         bodyFile: "release.md"
 
