@@ -2,9 +2,8 @@ name: Render document with Nix and Quarto and create a Release
 
 on:
   push:
-    branches:
-      - main
-      - master
+    tags:
+      - *
 
 jobs:
   build:
